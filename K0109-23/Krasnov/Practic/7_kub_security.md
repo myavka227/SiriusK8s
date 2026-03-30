@@ -29,3 +29,4 @@ webapp.crt: OK
 - kubectl пишет "connection refused" на порты 52805/61547 → Minikube перезапустился и сменил порт API-сервера → помогло minikube update-context
 - curl: Could not resolve host: webapp.local → система не знала, куда стучаться → добавил 192.168.49.2 webapp.local в /etc/hosts
 - curl висит и не отвечает → Ingress-контроллер не принимал трафик → проверил kubectl get pods -n ingress-nginx, перезапустили port-forward
+

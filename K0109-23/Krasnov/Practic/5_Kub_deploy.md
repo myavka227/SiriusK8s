@@ -56,3 +56,5 @@ LoadBalancer — внешний балансировщик (только в об
 
 5. Как откатиться на предыдущую версию?
 → kubectl rollout undo deployment/webapp — возвращает предыдущий ReplicaSet.
+
+
