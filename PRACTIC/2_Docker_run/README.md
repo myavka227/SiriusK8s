@@ -36,6 +36,7 @@ mkdir ~/docker-lab && cd ~/docker-lab
 ```python
 from flask import Flask
 import os, socket
+
 app = Flask(__name__)
 
 @app.route('/')
